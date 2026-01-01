@@ -2,8 +2,10 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
+device = "cuda" if torch.cuda.is_available() else "cpu" #to support Gemma on gpu
+
 def load_tokenizer(model_name:str = "google/gemma-2b-it"):
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name, local_files_only=True)
     return tokenizer
 
 def tokenize_with_chat(tokenizer, query):
@@ -12,13 +14,16 @@ def tokenize_with_chat(tokenizer, query):
     ]
     prompt = tokenizer.apply_chat_template(chat, tokenize=False, add_generation_prompt=True)
     inputs = tokenizer.encode(prompt, add_special_tokens=False, return_tensors="pt") #tokenizer(prompt, return_tensors="pt")
+    inputs = inputs.to(device)# to run on gpu
 
     return inputs, prompt
 
-def load_gemma(mobel_name:str = "google/gemma-2b-it"):
+def load_gemma(model_name:str = "google/gemma-2b-it"): #well, this should be model_name rather than mobel_name :)
     llm_model = AutoModelForCausalLM.from_pretrained(
-        mobel_name,
-        torch_dtype=torch.bfloat16
+        model_name,
+        torch_dtype=torch.bfloat16,
+        local_files_only=True, #because we have download it locally
+        device_map="auto"
     )
     return llm_model
 
@@ -77,4 +82,5 @@ def tokenize_with_rag_prompt(tokenizer, query:str, context_items: list[dict]):
     prompt = rag_prompt_formatter(tokenizer, query, context_items)
     inputs = tokenizer.encode(prompt, add_special_tokens=False,
                               return_tensors="pt")
+    inputs = inputs.to(device)
     return inputs, prompt
