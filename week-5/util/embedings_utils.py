@@ -19,7 +19,9 @@ def save_embeddings(pages_and_chunks: list[dict]) -> str:
 
 # load embeddings into Tensor
 def embeddings_to_tensor(filename: str) -> tuple[torch.Tensor, dict]:
-    device = "cuda" if torch.cuda.is_available() else "cpu"
+    device = "cuda" #if torch.cuda.is_available() #else "cpu"
+
+    print(device)
 
     # Import texts and embedding df
     text_chunks_and_embedding_df = pd.read_csv(filename)
