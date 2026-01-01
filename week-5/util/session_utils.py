@@ -10,6 +10,7 @@ class SESSION_VARS(Enum):
     TOKENIZER = 6,
     MODEL = 7,
     EMBEDDINGS_FILENAME = 8
+    LANGUAGE = 9  
 
 
 def put_to_session(st: st, key:SESSION_VARS, value):
