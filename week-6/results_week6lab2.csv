@@ -1,0 +1,269 @@
+,topic,original,variant_id,variant,model
+0,Map Search,restaurants near Central Park,1,resturants neer Centrail Park,llama3
+1,Map Search,restaurants near Central Park,2,resaturants near Centreal Parke,llama3
+2,Map Search,restaurants near Central Park,3,restrant's near Centrul PArk,llama3
+3,Map Search,shortest route to Times Square from JFK Airport,1,shortest rute to Times Squre from JKF Airport,llama3
+4,Map Search,shortest route to Times Square from JFK Airport,2,shoret routhe to Time Square from JFK Airport,llama3
+5,Map Search,shortest route to Times Square from JFK Airport,3,shortest routee to TImes Squere from JFK Aiprort,llama3
+6,Map Search,petrol stations open now in downtown Los Angeles,1,petrol statins open now in downtown Loas Angelus,llama3
+7,Map Search,petrol stations open now in downtown Los Angeles,2,petrol stations opn now in downtown Los Anegles,llama3
+8,Map Search,petrol stations open now in downtown Los Angeles,3,petrol stationz open nnow in downtown Los Angeles,llama3
+9,Map Search,walking directions to Eiffel Tower from Louvre Museum,1,walking direcions to Eiffel Tovor from Louvre Museeum,llama3
+10,Map Search,walking directions to Eiffel Tower from Louvre Museum,2,walkin directions to Effil Tower from Lowre Museum,llama3
+11,Map Search,walking directions to Eiffel Tower from Louvre Museum,3,direkctions to Eiffel Towr from Lourve Musium,llama3
+12,Map Search,nearest hiking trails in Yosemite National Park,1,nearest hikeing trails in Yosimite National Park,llama3
+13,Map Search,nearest hiking trails in Yosemite National Park,2,neareset hiking traisls in Yosemite Nationl Park,llama3
+14,Map Search,nearest hiking trails in Yosemite National Park,3,ninst nearest hikin trails in Yo Semite National Parke,llama3
+15,Job Search,software engineer jobs in San Francisco,1,softwear enginier jobs in San Francsico,llama3
+16,Job Search,software engineer jobs in San Francisco,2,sorfware ingeniur jobs in Sann Francisco,llama3
+17,Job Search,software engineer jobs in San Francisco,3,sofware engineir jbos in San Fransisko,llama3
+18,Job Search,remote work opportunities in marketing,1,remot werke opportunites in marketing,llama3
+19,Job Search,remote work opportunities in marketing,2,remeote work oppertunities inn marketting,llama3
+20,Job Search,remote work opportunities in marketing,3,reomte wrok oportunies n marketin,llama3
+21,Job Search,freelance graphic design projects for beginners,1,freelance grafic design projects for beginniners,llama3
+22,Job Search,freelance graphic design projects for beginners,2,frilance graphic desighn projects for begginers,llama3
+23,Job Search,freelance graphic design projects for beginners,3,frelance graphik deisgn projecs for beinners,llama3
+24,Job Search,data scientist positions at Google,1,datascientist posishuns at Gooogle,llama3
+25,Job Search,data scientist positions at Google,2,da ta scientifc positins at Googlee,llama3
+26,Job Search,data scientist positions at Google,3,deta scientist poisitions at Ghoogle,llama3
+27,Job Search,entry-level mechanical engineering jobs in Austin,1,entry-lvel mechancal enginering jobs in Ausitn,llama3
+28,Job Search,entry-level mechanical engineering jobs in Austin,2,entry level mechanical engrining jobs in Austyn,llama3
+29,Job Search,entry-level mechanical engineering jobs in Austin,3,entery-lebel mechanicle engineerin' jobz in Awstun,llama3
+30,Flight Search,cheap flights from New York to London,1,cheep flights from New York to Londin,llama3
+31,Flight Search,cheap flights from New York to London,2,cheap fligths from New Yorke to London,llama3
+32,Flight Search,cheap flights from New York to London,3,cheapest flightz from New Yourk to Lodon,llama3
+33,Flight Search,nonstop flights to Tokyo from Los Angeles,1,nonstop flights to Tokoy from Los Angeles,llama3
+34,Flight Search,nonstop flights to Tokyo from Los Angeles,2,nonstop fligths to Tokyo from Loas Angles,llama3
+35,Flight Search,nonstop flights to Tokyo from Los Angeles,3,non stop flghts to Tooky from Los Anegles,llama3
+36,Flight Search,business class deals to Paris in December,1,busines class deals to Paree in December,llama3
+37,Flight Search,business class deals to Paris in December,2,business classe deales to Paris in Decembeer,llama3
+38,Flight Search,business class deals to Paris in December,3,buzness claass deals to Pars in Dekember,llama3
+39,Flight Search,flights under $500 to Hawaii in January,1,flights undir $500 to Hawii in January,llama3
+40,Flight Search,flights under $500 to Hawaii in January,2,flights unter $4500 to Hawaii ine Jannuary,llama3
+41,Flight Search,flights under $500 to Hawaii in January,3,flieghts onder $550 to Havaii in Januery,llama3
+42,Flight Search,flight schedules for Delta Airlines to Chicago,1,flight shedules for Delta AirLines to Chigago,llama3
+43,Flight Search,flight schedules for Delta Airlines to Chicago,2,flite schedules for Delata Airlines too Chicago,llama3
+44,Flight Search,flight schedules for Delta Airlines to Chicago,3,flights skedules for Dleta Airlines to Chicgao,llama3
+45,E-commerce,best laptops under $1000,1,best lappents under $1000,llama3
+46,E-commerce,best laptops under $1000,2,bst laptops undor $1000,llama3
+47,E-commerce,best laptops under $1000,3,beast laptops unter $900,llama3
+48,E-commerce,organic skincare products with good reviews,1,oranic skienary producks with good reviws,llama3
+49,E-commerce,organic skincare products with good reviews,2,orginik skincare productz wit goo reviews,llama3
+50,E-commerce,organic skincare products with good reviews,3,organic skineare products wit goo dewviews,llama3
+51,E-commerce,discounted furniture for small apartments,1,Disounted furnitur for small apartmants,llama3
+52,E-commerce,discounted furniture for small apartments,2,Furnitured discounted for smal apartments,llama3
+53,E-commerce,discounted furniture for small apartments,3,Discoutned furniture for small apts,llama3
+54,E-commerce,latest iPhone models with trade-in offers,1,latest iPone models with trade-in offirs,llama3
+55,E-commerce,latest iPhone models with trade-in offers,2,lateist iPhone models with tradeen offers,llama3
+56,E-commerce,latest iPhone models with trade-in offers,3,latest iPhon modals with tradin in offeres,llama3
+57,E-commerce,top-rated noise-cancelling headphones,1,top-reted noise-cancaling headphones,llama3
+58,E-commerce,top-rated noise-cancelling headphones,2,top-rated nuise-cancelling heandphones,llama3
+59,E-commerce,top-rated noise-cancelling headphones,3,top-rated noize-cannceling headpones,llama3
+60,Health and Fitness,yoga classes near me,1,yoga clasess near me,llama3
+61,Health and Fitness,yoga classes near me,2,yoga claases neare me,llama3
+62,Health and Fitness,yoga classes near me,3,yoaga clases nereme,llama3
+63,Health and Fitness,gyms with personal trainers in Miami,1,gyms with persnal trainers in Miami,llama3
+64,Health and Fitness,gyms with personal trainers in Miami,2,gymes wit personal trainiers in Maimee,llama3
+65,Health and Fitness,gyms with personal trainers in Miami,3,jyms with personel trainers inn Miami,llama3
+66,Health and Fitness,low-carb meal prep ideas for weight loss,1,low-carb meel prep ideaz for weight losse,llama3
+67,Health and Fitness,low-carb meal prep ideas for weight loss,2,low-curb meal prepp ideas for wieght loss,llama3
+68,Health and Fitness,low-carb meal prep ideas for weight loss,3,law-carb meal pear prep idias for weigt lass,llama3
+69,Health and Fitness,home remedies for back pain relief,1,hom remedies for bacck pain relief,llama3
+70,Health and Fitness,home remedies for back pain relief,2,hoom remidies for back paiin relife,llama3
+71,Health and Fitness,home remedies for back pain relief,3,homee remmiedies for back pani relief,llama3
+72,Health and Fitness,best running shoes for flat feet,1,bestest runnin shoes for flatt feet,llama3
+73,Health and Fitness,best running shoes for flat feet,2,best running shows for flat fetes,llama3
+74,Health and Fitness,best running shoes for flat feet,3,bets running shues for flate feet,llama3
+75,Entertainment and Media,movies playing near me this weekend,1,movis playing near me this weekeend,llama3
+76,Entertainment and Media,movies playing near me this weekend,2,movies playin near me this weekendn,llama3
+77,Entertainment and Media,movies playing near me this weekend,3,mivies playing ner me this week end,llama3
+78,Entertainment and Media,top-rated fantasy novels of 2024,1,top-raited fantasy novels of 2025,llama3
+79,Entertainment and Media,top-rated fantasy novels of 2024,2,top rated fanatsy novels of 2024,llama3
+80,Entertainment and Media,top-rated fantasy novels of 2024,3,topt raidted fantasticy novells of 2024,llama3
+81,Entertainment and Media,concerts in Chicago this month,1,concerts in Checago this month,llama3
+82,Entertainment and Media,concerts in Chicago this month,2,concetrs in Chicago teh month,llama3
+83,Entertainment and Media,concerts in Chicago this month,3,koncerts inn Chiacgo this mont,llama3
+84,Entertainment and Media,free streaming platforms for documentaries,1,freee streaming platforms for documentaries,llama3
+85,Entertainment and Media,free streaming platforms for documentaries,2,frree streming platfroms for documentaries,llama3
+86,Entertainment and Media,free streaming platforms for documentaries,3,fre streeming plataforms for documentary's,llama3
+87,Entertainment and Media,latest episodes of Stranger Things,1,latest episoeds of Strainger Things,llama3
+88,Entertainment and Media,latest episodes of Stranger Things,2,lateest episodes of Strangher Thingz,llama3
+89,Entertainment and Media,latest episodes of Stranger Things,3,latest episods of Stranger Thingys,llama3
+90,Travel and Tourism,best hotels in Bali for families,1,best hoteles in Bali for familees,llama3
+91,Travel and Tourism,best hotels in Bali for families,2,best hotels in Balie for famillies,llama3
+92,Travel and Tourism,best hotels in Bali for families,3,beest hotells in Bali fo famlies,llama3
+93,Travel and Tourism,top-rated attractions in Rome,1,tob-ratet attracitons in Rom,llama3
+94,Travel and Tourism,top-rated attractions in Rome,2,top reted attarctions in Romee,llama3
+95,Travel and Tourism,top-rated attractions in Rome,3,top ratd attractions inn Roma,llama3
+96,Travel and Tourism,all-inclusive resorts in the Caribbean,1,all-inclusiv resorts in the Carribean,llama3
+97,Travel and Tourism,all-inclusive resorts in the Caribbean,2,all inclusve resorts in teh Caribbean,llama3
+98,Travel and Tourism,all-inclusive resorts in the Caribbean,3,al innclusive resortes in the Caribbean,llama3
+99,Travel and Tourism,visa requirements for US citizens visiting Canada,1,visa requirments for US citizens visiting Caneda,llama3
+100,Travel and Tourism,visa requirements for US citizens visiting Canada,2,visas requirements for USS citicens visting Canada,llama3
+101,Travel and Tourism,visa requirements for US citizens visiting Canada,3,viza requeiments for US citizns visitng Canadia,llama3
+102,Travel and Tourism,weather forecast for Cancun next week,1,weeather forecast for Cancun next weeek,llama3
+103,Travel and Tourism,weather forecast for Cancun next week,2,wether forecast for Canucn next week,llama3
+104,Travel and Tourism,weather forecast for Cancun next week,3,weather forecast for Cancun nxt week,llama3
+105,General Knowledge and Learning,history of the Great Wall of China,1,histery of teh Greit Wall of China,llama3
+106,General Knowledge and Learning,history of the Great Wall of China,2,hysteria of the Gaet Wall of Chine,llama3
+107,General Knowledge and Learning,history of the Great Wall of China,3,historee of the Grete Waw of Chinah,llama3
+108,General Knowledge and Learning,how to solve quadratic equations,1,how tow solve qudratic equations,llama3
+109,General Knowledge and Learning,how to solve quadratic equations,2,hwo to solv quadric eqautions,llama3
+110,General Knowledge and Learning,how to solve quadratic equations,3,How too solve quadratic equasions,llama3
+111,General Knowledge and Learning,current events in the Middle East,1,currant events in the Middel East,llama3
+112,General Knowledge and Learning,current events in the Middle East,2,curren't events in the Midle East,llama3
+113,General Knowledge and Learning,current events in the Middle East,3,current event's in the Mitte East,llama3
+114,General Knowledge and Learning,free online courses for Python programming,1,fre online courses for Python progamming,llama3
+115,General Knowledge and Learning,free online courses for Python programming,2,frie onlnie coursas for Pythoun prorgaming,llama3
+116,General Knowledge and Learning,free online courses for Python programming,3,free onlinne corsos for Pithon programing,llama3
+117,General Knowledge and Learning,most famous paintings by Van Gogh,1,most famus paintings by Van Gogh,llama3
+118,General Knowledge and Learning,most famous paintings by Van Gogh,2,most famous painingts by Van Goegh,llama3
+119,General Knowledge and Learning,most famous paintings by Van Gogh,3,mosst faimous paintings by Vangohgh,llama3
+120,Local Services,plumbers near me with good reviews,1,plummers near me with good reviws,llama3
+121,Local Services,plumbers near me with good reviews,2,plumbers ner me wth gooed reviews,llama3
+122,Local Services,plumbers near me with good reviews,3,plumbeer's neer me wit good rewiews,llama3
+123,Local Services,24-hour pharmacies in Boston,1,24-houer pharmacies in Bosston,llama3
+124,Local Services,24-hour pharmacies in Boston,2,24-hour pharamcies in Bostonn,llama3
+125,Local Services,24-hour pharmacies in Boston,3,24 hoour pharmacies in Booston,llama3
+126,Local Services,car repair shops in San Diego,1,car repare shops in San Dieggo,llama3
+127,Local Services,car repair shops in San Diego,2,car reppair shops in Sann Diego,llama3
+128,Local Services,car repair shops in San Diego,3,car repair shopez in San Diogo,llama3
+129,Local Services,affordable wedding photographers in New York,1,affordable wedding photographers in New Yorck,llama3
+130,Local Services,affordable wedding photographers in New York,2,afordable wdding photograhers in New Yorkk,llama3
+131,Local Services,affordable wedding photographers in New York,3,afrordable weddinng photagraphes in Neyw York,llama3
+132,Local Services,dog groomers open on Sundays,1,dog greemers open on Sundaze,llama3
+133,Local Services,dog groomers open on Sundays,2,dog groomes opwn on Sundays,llama3
+134,Local Services,dog groomers open on Sundays,3,dog grrommers open on Saturnds,llama3
+0,Map Search,restaurants near Central Park,1,restaurants neear Central Park,mistral
+1,Map Search,restaurants near Central Park,2,restaurants near Centrall Park,mistral
+2,Map Search,restaurants near Central Park,3,restaurants near Cental Park,mistral
+3,Map Search,shortest route to Times Square from JFK Airport,1,shortest route to Time Square from JFK Airport,mistral
+4,Map Search,shortest route to Times Square from JFK Airport,2,shortest rout to Times Squar from JFK Airport,mistral
+5,Map Search,shortest route to Times Square from JFK Airport,3,shoertest route to Times Square from JFK Airpot,mistral
+6,Map Search,petrol stations open now in downtown Los Angeles,1,petrol station open now in downtown Los Angeles,mistral
+7,Map Search,petrol stations open now in downtown Los Angeles,2,petrol stations opne now in downtown Los Angeles,mistral
+8,Map Search,petrol stations open now in downtown Los Angeles,3,petrol stations open now in downtowne Los Angeles,mistral
+9,Map Search,walking directions to Eiffel Tower from Louvre Museum,1,walking directions to Eifel Tower from Louvre Museum,mistral
+10,Map Search,walking directions to Eiffel Tower from Louvre Museum,2,walking direction to Eiffel Towers from Louvre Museum,mistral
+11,Map Search,walking directions to Eiffel Tower from Louvre Museum,3,walking directions too Eiffel Tower form Louvre Museum,mistral
+12,Map Search,nearest hiking trails in Yosemite National Park,1,"""neasest hiking trails in Yosemite National Park""",mistral
+13,Map Search,nearest hiking trails in Yosemite National Park,2,""".arest hiking trials in Yosemite National Park""",mistral
+14,Map Search,nearest hiking trails in Yosemite National Park,3,"""nearest hikin gtrails in Yosemite National Park""",mistral
+15,Job Search,software engineer jobs in San Francisco,1,software enginner jobs in San Francicso,mistral
+16,Job Search,software engineer jobs in San Francisco,2,software engineer job in San Franciscto,mistral
+17,Job Search,software engineer jobs in San Francisco,3,software enginerr jobs in San Franciscoe,mistral
+18,Job Search,remote work opportunities in marketing,1,remote work oppurtunities in marketing,mistral
+19,Job Search,remote work opportunities in marketing,2,remote work opportunitites in marketing,mistral
+20,Job Search,remote work opportunities in marketing,3,remote work opportunities in markeeting,mistral
+21,Job Search,freelance graphic design projects for beginners,1,freelance graphick design projects for beginners,mistral
+22,Job Search,freelance graphic design projects for beginners,2,freelance graphic deign projects for beginners,mistral
+23,Job Search,freelance graphic design projects for beginners,3,freelance graphic disign projects for beginners,mistral
+24,Job Search,data scientist positions at Google,1,data scienitst positions at Googlre,mistral
+25,Job Search,data scientist positions at Google,2,dat a scientiest posisitions at Google,mistral
+26,Job Search,data scientist positions at Google,3,data scientiest poistions at Googlle,mistral
+27,Job Search,entry-level mechanical engineering jobs in Austin,1,entry-lvel mechanical engineering jobs in Austin,mistral
+28,Job Search,entry-level mechanical engineering jobs in Austin,2,entry-level mechnical engineering jobs in Austen,mistral
+29,Job Search,entry-level mechanical engineering jobs in Austin,3,entry-levell mechanical enginerring jobs in Austin,mistral
+30,Flight Search,cheap flights from New York to London,1,cheap flight from New Yok to Londen,mistral
+31,Flight Search,cheap flights from New York to London,2,cheap flights frum New York to Londen,mistral
+32,Flight Search,cheap flights from New York to London,3,cheap fligts from New York to Londion,mistral
+33,Flight Search,nonstop flights to Tokyo from Los Angeles,1,"""nonstop fligts to Tokyo from Los Angeles"",""nonstop flights to Tokeyo from Los Angeles"",""nonstop flights to Tokyo from Losa Angeles",mistral
+34,Flight Search,business class deals to Paris in December,1,bizness clas deals to Parris in Decemeber,mistral
+35,Flight Search,business class deals to Paris in December,2,business class deals to Pairs in Decembwer,mistral
+36,Flight Search,business class deals to Paris in December,3,business claas deals to Paris in Decembeer,mistral
+37,Flight Search,flights under $500 to Hawaii in January,1,flights under $500 to Hawaii in Jauary,mistral
+38,Flight Search,flights under $500 to Hawaii in January,2,flights under $500 to Hawaai in January,mistral
+39,Flight Search,flights under $500 to Hawaii in January,3,flights uner $500 to Hawaii in Januar,mistral
+40,Flight Search,flight schedules for Delta Airlines to Chicago,1,"""flight schedules for Delta Airlines to Chicago""",mistral
+41,Flight Search,flight schedules for Delta Airlines to Chicago,2,"""flight schedules for Deltal Airlines to Chicago""",mistral
+42,Flight Search,flight schedules for Delta Airlines to Chicago,3,"""flight scheduels for Delta Airlines to Chicago""",mistral
+43,E-commerce,best laptops under $1000,1,best laptops under $10000,mistral
+44,E-commerce,best laptops under $1000,2,besst laptops under $1000,mistral
+45,E-commerce,best laptops under $1000,3,best laketops under $1000,mistral
+46,E-commerce,organic skincare products with good reviews,1,organic skincare productswith good reviewes,mistral
+47,E-commerce,organic skincare products with good reviews,2,organic skincare produtcs with goood reviews,mistral
+48,E-commerce,organic skincare products with good reviews,3,organic skincare products wih good reviews,mistral
+49,E-commerce,discounted furniture for small apartments,1,discontected furniture for small appartments,mistral
+50,E-commerce,discounted furniture for small apartments,2,discounted furhniture for small aparments,mistral
+51,E-commerce,discounted furniture for small apartments,3,discounted furnituar for small apartments,mistral
+52,E-commerce,latest iPhone models with trade-in offers,1,latest iPhon models with trade-in offers,mistral
+53,E-commerce,latest iPhone models with trade-in offers,2,latest iPhone modells with trade-in offers,mistral
+54,E-commerce,latest iPhone models with trade-in offers,3,latest iPhone modesl with trade-in offers,mistral
+55,E-commerce,top-rated noise-cancelling headphones,1,top-rated noice-cancelling headphones,mistral
+56,E-commerce,top-rated noise-cancelling headphones,2,top-rated noise-cancellng headphones,mistral
+57,E-commerce,top-rated noise-cancelling headphones,3,top-rated noise-canceling headphonse,mistral
+58,Health and Fitness,yoga classes near me,1,yoga clases near me,mistral
+59,Health and Fitness,yoga classes near me,2,yoaga classes near me,mistral
+60,Health and Fitness,yoga classes near me,3,yoga classs near me,mistral
+61,Health and Fitness,gyms with personal trainers in Miami,1,gyms with persoanal trainers in Miami,mistral
+62,Health and Fitness,gyms with personal trainers in Miami,2,gyms wit personal traners in Miamii,mistral
+63,Health and Fitness,gyms with personal trainers in Miami,3,gyms with persoal trainers in Miaimi,mistral
+64,Health and Fitness,low-carb meal prep ideas for weight loss,1,low-carb meal prep ideass for weight loss,mistral
+65,Health and Fitness,low-carb meal prep ideas for weight loss,2,low-carb meal prepp ideas for weigth loss,mistral
+66,Health and Fitness,low-carb meal prep ideas for weight loss,3,low-carb meal prep idears for weight loss,mistral
+67,Health and Fitness,home remedies for back pain relief,1,home remedies for back pain releif,mistral
+68,Health and Fitness,home remedies for back pain relief,2,home remedies for back pains relief,mistral
+69,Health and Fitness,home remedies for back pain relief,3,home remedies for bak pain relief,mistral
+70,Health and Fitness,best running shoes for flat feet,1,"""best ranning shoes for flat feet""",mistral
+71,Health and Fitness,best running shoes for flat feet,2,"""best running shoese for flat feet""",mistral
+72,Health and Fitness,best running shoes for flat feet,3,"""bes trunning shoes for flat feet""",mistral
+73,Entertainment and Media,movies playing near me this weekend,1,movies pleying near me this weekend,mistral
+74,Entertainment and Media,movies playing near me this weekend,2,movies playing neear me ths weeked,mistral
+75,Entertainment and Media,movies playing near me this weekend,3,movies playing neer me ths weekend,mistral
+76,Entertainment and Media,top-rated fantasy novels of 2024,1,top-rated fantasy novels of 2024e,mistral
+77,Entertainment and Media,top-rated fantasy novels of 2024,2,[top-rated fantasynovels of 2024],mistral
+78,Entertainment and Media,top-rated fantasy novels of 2024,3,[top-rated fantasy novelz of 2024],mistral
+79,Entertainment and Media,concerts in Chicago this month,1,concerts in Chicago this month,mistral
+80,Entertainment and Media,concerts in Chicago this month,2,concerts in Chicago this thme,mistral
+81,Entertainment and Media,concerts in Chicago this month,3,concerts in Chicagio this mes,mistral
+82,Entertainment and Media,free streaming platforms for documentaries,1,\,mistral
+83,Entertainment and Media,free streaming platforms for documentaries,2,", ",mistral
+84,Entertainment and Media,free streaming platforms for documentaries,3,free streaming plaftorms for documentarie,mistral
+85,Entertainment and Media,latest episodes of Stranger Things,1,"""lateset episodes of Stranger Things""",mistral
+86,Entertainment and Media,latest episodes of Stranger Things,2,"""latest epidsodes of Stranger Things""",mistral
+87,Entertainment and Media,latest episodes of Stranger Things,3,"""latest episodes of Stranger Thingz""",mistral
+88,Travel and Tourism,best hotels in Bali for families,1,best hotells in Bali for families,mistral
+89,Travel and Tourism,best hotels in Bali for families,2,best hotels in Baly for families,mistral
+90,Travel and Tourism,best hotels in Bali for families,3,best hotelis in Bali for families,mistral
+91,Travel and Tourism,top-rated attractions in Rome,1,top-rated attracions in Rome,mistral
+92,Travel and Tourism,top-rated attractions in Rome,2,top-rated atraction sin Rome,mistral
+93,Travel and Tourism,top-rated attractions in Rome,3,top-rated attractions in Romme,mistral
+94,Travel and Tourism,all-inclusive resorts in the Caribbean,1,all-inclusive resorts in the Caribean,mistral
+95,Travel and Tourism,all-inclusive resorts in the Caribbean,2,all-inclusiv resorts in the Caribbeen,mistral
+96,Travel and Tourism,all-inclusive resorts in the Caribbean,3,all-inclusive resorts in the Carribbean,mistral
+97,Travel and Tourism,visa requirements for US citizens visiting Canada,1,visa requirments for US citzen visiting Canada,mistral
+98,Travel and Tourism,visa requirements for US citizens visiting Canada,2,visa requirements for US cittizens vistiting Canada,mistral
+99,Travel and Tourism,visa requirements for US citizens visiting Canada,3,visa requirments for US citizeins visiting Canada,mistral
+100,Travel and Tourism,weather forecast for Cancun next week,1,weather forcast for Cancun next weeek,mistral
+101,Travel and Tourism,weather forecast for Cancun next week,2,weathr forecasst for Cancun nest weeek,mistral
+102,Travel and Tourism,weather forecast for Cancun next week,3,weather forecast for Cancon next week,mistral
+103,General Knowledge and Learning,history of the Great Wall of China,1,histroy of the Greaet Wall of China,mistral
+104,General Knowledge and Learning,history of the Great Wall of China,2,history of the Great WAll of Chinia,mistral
+105,General Knowledge and Learning,history of the Great Wall of China,3,history of the Grea Wall of Chine,mistral
+106,General Knowledge and Learning,how to solve quadratic equations,1,"""how to slove quadratc equations""",mistral
+107,General Knowledge and Learning,how to solve quadratic equations,2,"""how to solve quadratuc equations""",mistral
+108,General Knowledge and Learning,how to solve quadratic equations,3,"""how to slove qudratic equations""",mistral
+109,General Knowledge and Learning,current events in the Middle East,1,current evets in the Middle East,mistral
+110,General Knowledge and Learning,current events in the Middle East,2,curretn events in the Middel East,mistral
+111,General Knowledge and Learning,current events in the Middle East,3,current events in the Midle East,mistral
+112,General Knowledge and Learning,free online courses for Python programming,1,free onlin courses for Pythom programing,mistral
+113,General Knowledge and Learning,free online courses for Python programming,2,free online coursers for Python programing,mistral
+114,General Knowledge and Learning,free online courses for Python programming,3,free online courses for Pytthon programming,mistral
+115,General Knowledge and Learning,most famous paintings by Van Gogh,1,mos t famous paintings by Van Gogh,mistral
+116,General Knowledge and Learning,most famous paintings by Van Gogh,2,most faimeous painitings by Van Gohg,mistral
+117,General Knowledge and Learning,most famous paintings by Van Gogh,3,most famous paitnings by Van Gough,mistral
+118,Local Services,plumbers near me with good reviews,1,plumbers neare me with good rewiews,mistral
+119,Local Services,plumbers near me with good reviews,2,plumbers near me with goood reviews,mistral
+120,Local Services,plumbers near me with good reviews,3,plumbers near me with good reviws,mistral
+121,Local Services,24-hour pharmacies in Boston,1,24-houer pharmacies in Boston,mistral
+122,Local Services,24-hour pharmacies in Boston,2,24-hour pharamcies in Boston,mistral
+123,Local Services,24-hour pharmacies in Boston,3,24-hour pharmacis in Boston,mistral
+124,Local Services,car repair shops in San Diego,1,car reapair shops in San Diego,mistral
+125,Local Services,car repair shops in San Diego,2,car repair shopis in San Diego,mistral
+126,Local Services,car repair shops in San Diego,3,car repair shops in Sang Diego,mistral
+127,Local Services,affordable wedding photographers in New York,1,affordable weding photographers in New York,mistral
+128,Local Services,affordable wedding photographers in New York,2,affordable wedding phographers in New Yotk,mistral
+129,Local Services,affordable wedding photographers in New York,3,affordable weding photograpers in New York,mistral
+130,Local Services,dog groomers open on Sundays,1,dog groomers open on Sundaies,mistral
+131,Local Services,dog groomers open on Sundays,2,dog groomers opes on Sundays,mistral
+132,Local Services,dog groomers open on Sundays,3,dog groomers open on Sundayz,mistral
