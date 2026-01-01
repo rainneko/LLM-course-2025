@@ -1,6 +1,39 @@
 from stqdm import stqdm
 import re
+import jieba
 
+def chinese_sentencize(text: str) -> list[str]:
+    """
+    
+    punctuations to spilt sentence for zh
+    like ：。！？；\n
+    
+    """
+    # 按中文标点切分句子
+    # 保留标点符号在句子末尾
+    pattern = r'([。！？；\n]+)'
+    
+    # 使用 split 但保留分隔符
+    parts = re.split(pattern, text)
+    
+    sentences = []
+    i = 0
+    while i < len(parts):
+        sentence = parts[i].strip()
+        # 如果下一个部分是标点，附加到当前句子
+        if i + 1 < len(parts) and re.match(pattern, parts[i + 1]):
+            sentence += parts[i + 1]
+            i += 2
+        else:
+            i += 1
+        
+        # 只添加非空句子
+        if sentence.strip():
+            sentences.append(sentence.strip())
+    
+    return sentences
+    
+"""
 def sentencize(pages_and_texts: list[dict], nlp):
     for item in stqdm(pages_and_texts):
         item["sentences"] = list(nlp(item["text"]).sents)
@@ -9,6 +42,27 @@ def sentencize(pages_and_texts: list[dict], nlp):
         item["sentences"] = [str(sentence) for sentence in item["sentences"]]
 
         # Count the sentences
+        item["page_sentence_count_spacy"] = len(item["sentences"])
+"""
+
+def sentencize(pages_and_texts: list[dict], nlp, language: str = "English"):
+    """
+    split the sentence
+    
+    Args:
+        nlp: spaCy for en,fi,sw ,  None for zh
+        language: - "English", "Finnish", "Swedish", "Chinese"
+    """
+    for item in stqdm(pages_and_texts):
+        if language == "Chinese":
+            # chinese is sentenced by punctuations not upper case
+            item["sentences"] = chinese_sentencize(item["text"])
+        else:
+            # spaCy for three language
+            item["sentences"] = list(nlp(item["text"]).sents)
+            # all sentences are string
+            item["sentences"] = [str(sentence) for sentence in item["sentences"]]
+        
         item["page_sentence_count_spacy"] = len(item["sentences"])
 
 
@@ -27,11 +81,32 @@ def split_list(input_list: list,
     return [input_list[i:i + slice_size] for i in range(0, len(input_list), slice_size)]
 
 # Perform sentence chunking
+# 不同语言的默认 chunk 大小
+CHUNK_SIZE_BY_LANGUAGE = {
+    "English": 10,
+    "Finnish": 7,    # fi token more，less sentence
+    "Swedish": 8,    # sw similar
+    "Chinese": 12,   # zh token less, more sentence
+}
+
+"""
 def chunk(pages_and_texts: list[dict]):
     # Loop through pages and texts and split sentences into chunks
     for item in stqdm(pages_and_texts):
         item["sentence_chunks"] = split_list(input_list=item["sentences"],
                                              slice_size=num_sentence_chunk_size)
+        item["num_chunks"] = len(item["sentence_chunks"])
+"""
+
+def chunk(pages_and_texts: list[dict], language: str = "English"):
+    """
+    split sentences into chunks
+    """
+    chunk_size = CHUNK_SIZE_BY_LANGUAGE.get(language, 10)
+    
+    for item in stqdm(pages_and_texts):
+        item["sentence_chunks"] = split_list(input_list=item["sentences"],
+                                             slice_size=chunk_size)
         item["num_chunks"] = len(item["sentence_chunks"])
 
 
