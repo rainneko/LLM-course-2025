@@ -1,4 +1,5 @@
 import streamlit as st
+import torch
 import spacy
 from util import pdf_utils
 from util.embedings_utils import embed_chunks, save_embeddings, embeddings_to_tensor
@@ -7,6 +8,7 @@ import pandas as pd
 from util.generator_utils import load_tokenizer, tokenize_with_chat, tokenize_with_rag_prompt, load_gemma, generate_answer
 from util.session_utils import SESSION_VARS, put_to_session, get_from_session, print_session
 from util.vector_search_utils import retrieve_relevant_resources
+import jieba
 
 # Requires !pip install sentence-transformers
 from sentence_transformers import SentenceTransformer
@@ -15,21 +17,44 @@ min_token_length = 30
 st.write("Initializing models")
 
 if not get_from_session(st, SESSION_VARS.LOADED_MODELS):
-    nlp = spacy.load("en_core_web_sm") #English()
+    #nlp = spacy.load("en_core_web_sm") #English()
+    language = st.selectbox("Select language", ["English", "Finnish", "Swedish", "Chinese"])
+    if language == "English":
+        nlp = spacy.load("en_core_web_sm")
+    elif language == "Finnish":
+        nlp = spacy.load("fi_core_news_sm")
+    elif language == "Swedish":
+        nlp = spacy.load("sv_core_news_sm")
+    elif language == "Chinese":
+        # Spacy没有官方中文模型，需要特殊处理
+        nlp = jieba  # 或其他中文分词器
+    st.write("your language is:", language)
 
     # uncomment this command to print the file location of the Spacy model
     # st.write(nlp._path)
 
     # Add a sentencizer pipeline, see https://spacy.io/api/sentencizer/
-    nlp.add_pipe("sentencizer")
+    if language != "Chinese":
+        nlp.add_pipe("sentencizer")
     put_to_session(st, SESSION_VARS.NLP, nlp)
+    put_to_session(st, SESSION_VARS.LANGUAGE, language) #add  language support
 
-    embedding_model_cpu = SentenceTransformer(model_name_or_path="/Users/dmitrykan/.cache/huggingface/hub/models--sentence-transformers--all-mpnet-base-v2/snapshots/e8c3b32edf5434bc2275fc9bab85f82640a19130",
-                                          device="cpu") # choose the device to load the model to (note: GPU will often be *much* faster than CPU)
-    put_to_session(st, SESSION_VARS.EMBEDDING_MODEL_CPU, embedding_model_cpu)
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    st.write("your device is:", device)
+
+    model_path=""
+    if language == "English":
+        model_path="/scratch/project_462001006/ruilin/LLM/LLMcourse/models--sentence-transformers--all-mpnet-base-v2/snapshots/e8c3b32edf5434bc2275fc9bab85f82640a19130"
+    else:
+        model_path="/scratch/project_462001006/ruilin/LLM/LLMcourse/paraphrase-multilingual-mpnet-base-v2"
+    st.write("model_path:",model_path)    
+    embedding_model = SentenceTransformer(model_name_or_path=model_path,
+                                          device=device) # choose the device to load the model to (note: GPU will often be *much* faster than CPU)
+    put_to_session(st, SESSION_VARS.EMBEDDING_MODEL_CPU, embedding_model)
 
     # Gemma
-    model = "google/gemma-2b-it"
+    #model = "google/gemma-2b-it"
+    model = "/scratch/project_462001006/ruilin/LLM/LLMcourse/gemma-2b-it"
     gemma_model = load_gemma(model)
     tokenizer = load_tokenizer(model)
 
@@ -73,10 +98,10 @@ if uploaded_file is not None:
             # print(pages_and_texts[:2])
             # extract sentences
             st.write("Extracting sentences")
-            sentencize(pages_and_texts, get_from_session(st, SESSION_VARS.NLP))
+            sentencize(pages_and_texts, get_from_session(st, SESSION_VARS.NLP), get_from_session(st, SESSION_VARS.LANGUAGE)) #add language support
             # chunk
             st.write("Chunking")
-            chunk(pages_and_texts)
+            chunk(pages_and_texts, get_from_session(st, SESSION_VARS.LANGUAGE)) #add language support
             # chunks to text elems
             pages_and_chunks = chunks_to_text_elems(pages_and_texts)
             st.write("Loading to a DataFrame")
